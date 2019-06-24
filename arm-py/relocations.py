@@ -1,3 +1,6 @@
+# relocations.py
+# displays all the relocation entries present in the given ELF binary
+
 import sys
 from elftools.elf.elffile import ELFFile
 from elftools.elf.relocation import RelocationSection
